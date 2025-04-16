@@ -1,0 +1,38 @@
+{
+    "ZolaRLAgentV2": {
+        "checkpoints": [
+            {
+                "steps": 192,
+                "file_path": "results\\ZolaRLAgentV2\\ZolaRLAgentV2\\ZolaRLAgentV2-192.onnx",
+                "reward": null,
+                "creation_time": 1744759153.7939851,
+                "auxillary_file_paths": [
+                    "results\\ZolaRLAgentV2\\ZolaRLAgentV2\\ZolaRLAgentV2-192.pt"
+                ]
+            },
+            {
+                "steps": 23344,
+                "file_path": "results\\ZolaRLAgentV2\\ZolaRLAgentV2\\ZolaRLAgentV2-23344.onnx",
+                "reward": 19.85316988961263,
+                "creation_time": 1744761770.5543494,
+                "auxillary_file_paths": [
+                    "results\\ZolaRLAgentV2\\ZolaRLAgentV2\\ZolaRLAgentV2-23344.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 23344,
+            "file_path": "results\\ZolaRLAgentV2\\ZolaRLAgentV2.onnx",
+            "reward": 19.85316988961263,
+            "creation_time": 1744761770.5543494,
+            "auxillary_file_paths": [
+                "results\\ZolaRLAgentV2\\ZolaRLAgentV2\\ZolaRLAgentV2-23344.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.6.0+cpu"
+    }
+}
